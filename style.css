@@ -9,6 +9,11 @@ body {
     background-color: rgb(15, 23, 42);
 }
 
+ol, ul {
+    padding: 0;
+    margin: 0;
+}
+
 li {
     list-style: none;
 }
@@ -73,4 +78,43 @@ nav {
 .social-media {
     display: flex;
     gap: 20px;
+}
+
+#about {
+    margin-bottom: 144px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    /*
+    align-items: flex-start;
+    */
+}
+
+.card > div > h3 {
+    margin-top: 0;
+}
+
+.card > div > ul > li {
+    display: inline;
+}
+
+.card > div > ul.external-link{
+    margin-top: 18px;
+}
+
+.card > div > ul.external-link > li{
+    margin-right: 16px;
+}
+
+.card > div > ul.techno {
+    margin-top: 26px;
+}
+
+.techno > .badge {
+    margin-right: 6px;
+    padding: 4px 12px;
+    background-color: rgba(17, 43, 57, 1);
+    border-radius: 16px;
 }
