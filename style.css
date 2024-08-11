@@ -118,3 +118,10 @@ nav {
     background-color: rgba(17, 43, 57, 1);
     border-radius: 16px;
 }
+
+.project-screenshot {
+    width: 200px;
+    height: 48px;
+    border-radius: 3px;
+    border: 2px solid;
+}
