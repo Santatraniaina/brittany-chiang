@@ -69,6 +69,10 @@ nav {
     margin-top: 100px;
 }
 
+section {
+    margin-bottom: 144px;
+}
+
 .content {
     padding: 96px 0px;
     min-width: 500px;
@@ -119,9 +123,13 @@ nav {
     border-radius: 16px;
 }
 
-.project-screenshot {
+.screenshot-image {
     width: 200px;
     height: 48px;
     border-radius: 3px;
     border: 2px solid;
+}
+
+.view-full {
+    margin-top: 48px;
 }

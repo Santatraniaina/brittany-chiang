@@ -46,6 +46,12 @@
                   <span>Projects</span>
                 </a>
               </li>
+              <li>
+                <a href="#writing">
+                  <span>--</span>
+                  <span>Writing</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </header>
@@ -176,15 +182,18 @@
             </li>
           </ol>
 
-          <div>
-            <a href=""> View Full Resume Arrow <svg /> </a>
+          <div class="view-full">
+            <a href="https://brittanychiang.com/resume.pdf" target="_blank">
+              View Full Résumé
+              <i class="fa-solid fa-md fa-arrow-right"></i>
+            </a>
           </div>
         </section>
 
         <section id="projects">
           <ul>
             <li class="card">
-              <img class="project-screenshot" src="/assets/img/course-card.webp" alt="Spotify Connected App" />
+              <img class="screenshot-image" src="/assets/img/course-card.webp" alt="Spotify Connected App" />
               <div>
                 <h3 aria-label="Project title">
                   <span>Build a Spotify Connected App</span>
@@ -222,18 +231,36 @@
             </li>
           </ul>
 
-          <div>
-            <a href="">
-              <span>View Full Project Archive</span>
-              Arrow <svg />
+          <div class="view-full">
+            <a href="https://brittanychiang.com/archive" target="_blank">
+              View Full Project Archive
+              <i class="fa-solid fa-md fa-arrow-right"></i>
             </a>
           </div>
         </section>
 
+        <section id="writing">
+          <ul>
+            <li class="card">
+              <img class="screenshot-image" src="/assets/img/algolia-search.webp" alt="Algolia Search on WordPress" />
+              <div>
+                <p aria-label="Publication year">
+                  2020
+                </p>
+                <h3 aria-label="Writing title"> 
+                  <span>Integrating Algolia Search with WordPress</span>
+                  <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </section>
+
         <footer>
-          Loosely designed in Figma and coded in Visual Studio Code by yours
-          truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All
-          text is set in the Inter typeface.
+          <strong></strong>
+          Loosely designed in <strong>Figma</strong> and coded in <strong>Visual Studio Code</strong> by yours
+          truly. Built with <strong>Next.js</strong> and <strong>Tailwind CSS</strong>, deployed with <strong>Vercel</strong>. All
+          text is set in the <strong>Inter</strong> typeface.
         </footer>
       </main>
     </div>
