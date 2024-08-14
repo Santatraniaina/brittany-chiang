@@ -100,8 +100,11 @@ section {
     margin-top: 0;
 }
 
-.card > div > ul > li {
-    display: inline;
+.card > div > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px 8px;
+    flex-wrap: wrap;
 }
 
 .card > div > ul.external-link{
@@ -117,7 +120,6 @@ section {
 }
 
 .techno > .badge {
-    margin-right: 6px;
     padding: 4px 12px;
     background-color: rgba(17, 43, 57, 1);
     border-radius: 16px;
